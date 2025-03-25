@@ -22,7 +22,7 @@ public class QuestionInputServiceTest {
     }
 
     @Test
-    public void ReadDataTest() {
+    public void readData() {
         List<Question> expectedQuestions = List.of(
                 new Question("Question", 1, List.of(new Answer("Answer")))
         );
